@@ -15,6 +15,8 @@ export default async function Page() {
 }
 
 async function getData() {
+  try
+  {
     const res = await fetch('http://localhost:3000/api/tequila', { cache: 'no-store' })
     // The return value is *not* serialized
     // You can return Date, Map, Set, etc.
@@ -26,4 +28,7 @@ async function getData() {
     }
 
     return res.json()
+  } catch {
+    console.log('sorry about nasty try catch but this is probably just a deploy pre-render error. no big deal')
+  }
 }
