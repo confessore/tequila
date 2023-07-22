@@ -1,4 +1,3 @@
-
 import { Akshar } from "next/font/google";
 
 const akshar = Akshar({ subsets: ["latin"] });

@@ -12,9 +12,7 @@ function App({ Component, pageProps: { session, ...pageProps } }: AppProps) {
   return (
     <>
       <Layout>
-        <>
-          <Component {...pageProps} />
-        </>
+        <Component {...pageProps} />
       </Layout>
     </>
   );
