@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default async function Page() {
   const data = await getData()
-  if (data === undefined) return <p>oops!</p>
+  if (data === null) return <p>oops!</p>
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
         <a href={data['href']}><Image src={data['src']} alt="" width={256} height={256} className="rounded-full"></Image></a>
@@ -30,6 +30,6 @@ async function getData() {
       const json = response.json()
       return json
     } catch {
-      return undefined
+      return null
     }
 }
