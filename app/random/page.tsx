@@ -14,7 +14,6 @@ export default async function Page() {
 }
 
 async function getData() {
-  try {
   var url = 'https://tequila.vercel.app/api/tequila'
   if (process.env.NODE_ENV === "development")
     url = 'http://localhost:3000/api/tequila'
@@ -27,9 +26,10 @@ async function getData() {
         // This will activate the closest `error.js` Error Boundary
         console.log('Failed to fetch data')
     }
-
-    return response.json()
-  } catch {
-    return undefined
-  }
+    try {
+      const json = response.json()
+      return json
+    } catch {
+      return undefined
+    }
 }
