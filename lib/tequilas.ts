@@ -47,12 +47,59 @@ export const tequilas: Array<Tequila> = [
     src: "https://cdn1.southernglazers.com/assets/items/563699/images/front-full-bottle/medium-(750x750)?eyJhbGciOiJIUzI1NiJ9.eyJrZXkiOiJrZXkzIiwicmVmZXJlciI6Ii5zZ3Byb29mLmNvbSJ9.tYokN0-WonFGbofNpYFTxa2x9nwUkJ-Sg4BybNHVuXY",
     href: "https://shop.sgproof.com/sgws/en/usd/CLASE-AZUL-TEQUILA-REPOSADO-80/p/563699?frompage=searchPage",
   },
-  /*{ id: "4", name: "Espolon", src: src },
-    { id: "5", name: "Clase Azul Reposado Tequila", src: src },
-    { id: "6", name: "Casamigos", src: src },
-    { id: "7", name: "El Jimador", src: src },
-    { id: "8", name: "Clase Azul", src: src },
-    { id: "9", name: "1800 Tequila", src: src },
-    { id: "10", name: "Espolon Tequila", src: src },
-    { id: "11", name: "Herradura Seleccion Suprema Tequila", src: src },*/
+  {
+    id: "4",
+    name: "CLASE AZUL TEQUILA PLATA 80",
+    description:
+      "COLOR: Crystalline, bright with silver sparkles. BODY: Light to medium. AROMA: Fresh aromas of orange, lemon, and mint. Hints of vanilla, green apple, and green tea. FLAVOR: Vanilla, Meyer lemon, fresh mint, and a touch of green guava.",
+    about: "At Clase Azul Spirits, we are inspired by our mission to initiate and reinforce a deeper appreciation for the beauty of Mexico and its traditions. Hand sculpted and individually painted by hand, each bottle of Clase Azul is a one-of-a-kind piece of art. From the superior tequila, to the unique & beautifully handcrafted bottles, Clase Azul is 100% authentic in every way",
+    src: "https://cdn1.southernglazers.com/assets/products/Prod2G_76723/images/front-full-bottle/medium-(750x750)?eyJhbGciOiJIUzI1NiJ9.eyJrZXkiOiJrZXkzIiwicmVmZXJlciI6Ii5zZ3Byb29mLmNvbSJ9.tYokN0-WonFGbofNpYFTxa2x9nwUkJ-Sg4BybNHVuXY",
+    href: "https://shop.sgproof.com/sgws/en/usd/CLASE-AZUL-TEQUILA-PLATA-80/p/578234?frompage=searchPage",
+  },
+  {
+    id: "5",
+    name: "CLASE AZUL TEQUILA EXTRA ANEJO ULTRA 80",
+    description: "COLOR: Dark amber with copper reflections. BODY: Great body. AROMA: Sherry, prune, apricot, and cherry. Maple honey, hazelnut, and intense oak notes FLAVOR: Prune, cinnamon, caramel cream, vanilla, and crystallized ginger.",
+    about: "At Clase Azul Spirits, we are inspired by our mission to initiate and reinforce a deeper appreciation for the beauty of Mexico and its traditions. Hand sculpted and individually painted by hand, each bottle of Clase Azul is a one-of-a-kind piece of art. From the superior tequila, to the unique &amp; beautifully handcrafted bottles, Clase Azul is 100% authentic in every way",
+    src: "https://cdn1.southernglazers.com/assets/items/175146/images/front-full-bottle/medium-(750x750)?eyJhbGciOiJIUzI1NiJ9.eyJrZXkiOiJrZXkzIiwicmVmZXJlciI6Ii5zZ3Byb29mLmNvbSJ9.tYokN0-WonFGbofNpYFTxa2x9nwUkJ-Sg4BybNHVuXY",
+    href: "https://shop.sgproof.com/sgws/en/usd/CLASE-AZUL-TEQUILA-EXTRA-ANEJO-ULTRA-80/p/175146?frompage=searchPage",
+  },
+  {
+    id: "6",
+    name: "FLECHA AZUL TEQUILA REPOSADO 80",
+    description:
+      "Our Reposado maintains the bright, crisp character of our traditional Blanco, layering citrus and a gentle grassiness against praline, vanilla, sandalwood, and subtle baking spice.",
+    about: "Flecha Azul is a super-premium tequila manufacturer. Flecha Azul uses fully aged, 100% Blue Weber Agave and naturally-sourced volcanic water. Our Reposado is aged for 6 months in ex-Bourbon American Oak Barrels.",
+    src: "https://cdn1.southernglazers.com/assets/items/537580/images/front-full-bottle/medium-(750x750)?eyJhbGciOiJIUzI1NiJ9.eyJrZXkiOiJrZXkzIiwicmVmZXJlciI6Ii5zZ3Byb29mLmNvbSJ9.tYokN0-WonFGbofNpYFTxa2x9nwUkJ-Sg4BybNHVuXY",
+    href: "https://shop.sgproof.com/sgws/en/usd/FLECHA-AZUL-TEQUILA-REPOSADO-80/p/537580?frompage=searchPage",
+  },
+  {
+    id: "7",
+    name: "CLASE AZUL MEZCAL JOVEN PAPALOTE GUERRERO 84",
+    description:
+      "COLOR: Crystal clear with light straw-colored highlights. BODY: Full bodied. AROMA: Grapefruit skin, fresh wood, rosemary, peanut oil, hints of butter and daisy flowers. TASTE: Fresh wood, seaweed, lemon juice, pepper and light notes of tobacco.",
+    about: "Clase Azul Mezcal Guerrero reveals one of Mexico's best-kept secrets: the wondrous state of Guerrero, a little-explored region that shows us another facet of Mexican culture. This new member of the Clase Azul family was inspired by the singularity of Guerrero's landscapes, gastronomy, art, and heritage - but also by the strength and leadership of the women of this region. Mezcal Guerrero is a truly unique piece. Beyond its beautiful decanter, its majestic flavor comes from a very rare variety of agave: the papalote agave. This plant grows wild in the Mountain Range of the State of Guerrero, where the notes combine the sea's climate and flavor with the green forests' freshness. The decanter is an artisanal piece that pays tribute to the ancestral wisdom, tender nature, and warrior spirit of the Mexican woman-qualities that have made her the heart of Guerrero's culture. The green color represents jade, a precious stone with extreme value to our ancestral cultures and a symbol of eternity. The 4-petaled flowers covering the decanter represent the Fifth Sun-a pre-Hispanic god known as the beginning of everything. The colorful cap features a hummingbird's figure, reaffirming its mystical and celestial connection to this Mexican region.",
+    src: "https://cdn1.southernglazers.com/assets/items/993209/images/front-full-bottle/medium-(750x750)?eyJhbGciOiJIUzI1NiJ9.eyJrZXkiOiJrZXkzIiwicmVmZXJlciI6Ii5zZ3Byb29mLmNvbSJ9.tYokN0-WonFGbofNpYFTxa2x9nwUkJ-Sg4BybNHVuXY",
+    href: "https://shop.sgproof.com/sgws/en/usd/CLASE-AZUL-MEZCAL-JOVEN-PAPALOTE-GUERRERO-80/p/993209?frompage=searchPage",
+  },
+  {
+    id: "8",
+    name: "CLASE AZUL MEZCAL JOVEN CENIZO 88",
+    description:
+      "COLOR: Bright crystalline with silver sparkles. BODY: Medium. AROMA: Citrus and herbal, green olive, cooked agave, and cloves. FLAVOR: peanut, brown sugar, honey, wood, chocolate, and notes of ripe fruit.",
+    about: "At Clase Azul Spirits, we are inspired by our mission to initiate and reinforce a deeper appreciation for the beauty of Mexico and its traditions. Hand sculpted and individually painted by hand, each bottle of Clase Azul is a one-of-a-kind piece of art. From the superior tequila, to the unique &amp; beautifully handcrafted bottles, Clase Azul is 100% authentic in every way",
+    src: "https://cdn1.southernglazers.com/assets/items/390132/images/front-full-bottle/medium-(750x750)?eyJhbGciOiJIUzI1NiJ9.eyJrZXkiOiJrZXkzIiwicmVmZXJlciI6Ii5zZ3Byb29mLmNvbSJ9.tYokN0-WonFGbofNpYFTxa2x9nwUkJ-Sg4BybNHVuXY",
+    href: "https://shop.sgproof.com/sgws/en/usd/CLASE-AZUL-MEZCAL-JOVEN-CENIZO-80/p/390132?frompage=searchPage",
+  },
+  /*
+  {
+    id: "",
+    name: "",
+    description:
+      "",
+    about: "",
+    src: "",
+    href: "",
+  },
+  */
 ];
