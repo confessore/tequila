@@ -1,7 +1,9 @@
 import Image from 'next/image'
 
 export default async function Page() {
-    const data = await getData()
+  const { data, error } = await getData()
+  if (error) return <div>Failed to load</div> 
+  if (!data) return <div>Loading...</div>
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
         <a href={data['href']}><Image src={data['src']} alt="" width={256} height={256} className="rounded-full"></Image></a>
