@@ -2,6 +2,7 @@ import Image from 'next/image'
 
 export default async function Page() {
   const data = await getData()
+  if (data === undefined) return <p>oops!</p>
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
         <a href={data['href']}><Image src={data['src']} alt="" width={256} height={256} className="rounded-full"></Image></a>
@@ -13,6 +14,7 @@ export default async function Page() {
 }
 
 async function getData() {
+  try {
   var url = 'https://tequila.vercel.app/api/tequila'
   if (process.env.NODE_ENV === "development")
     url = 'http://localhost:3000/api/tequila'
@@ -27,4 +29,7 @@ async function getData() {
     }
 
     return response.json()
+  } catch {
+    return undefined
+  }
 }
