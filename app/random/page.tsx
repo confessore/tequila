@@ -4,9 +4,10 @@ export default async function Page() {
     const data = await getData()
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-        {data['id']}
-        {data['name']}
-        <Image src={data['src']} alt="" width={750} height={750}></Image>
+        <a href={data['href']}><Image src={data['src']} alt="" width={256} height={256} className="rounded-full"></Image></a>
+        <h1>{data['name']}</h1>
+        <h2>{data['description']}</h2>
+        <h3>{data['about']}</h3>
     </main>
   )
 }
