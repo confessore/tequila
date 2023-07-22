@@ -1,8 +1,9 @@
 import Image from 'next/image'
+import { PHASE_PRODUCTION_BUILD } from 'next/constants'
 
 export default async function Page() {
   const data = await getData()
-  if (data === null) return <p>oops!</p>
+  if (data === null) return <div>build</div>
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
         <a href={data['href']}><Image src={data['src']} alt="" width={256} height={256} className="rounded-full"></Image></a>
@@ -14,6 +15,9 @@ export default async function Page() {
 }
 
 async function getData() {
+  if (process.env.NEXT_PHASE === PHASE_PRODUCTION_BUILD) {
+    return null
+  }
   var url = 'https://tequila.vercel.app/api/tequila'
   if (process.env.NODE_ENV === "development")
     url = 'http://localhost:3000/api/tequila'
@@ -26,10 +30,5 @@ async function getData() {
         // This will activate the closest `error.js` Error Boundary
         console.log('Failed to fetch data')
     }
-    try {
-      const json = response.json()
-      return json
-    } catch {
-      return null
-    }
+    return response.json()
 }
