@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import { PHASE_PRODUCTION_BUILD } from 'next/constants'
 
 export default async function Page() {
   const data = await getData()
@@ -15,9 +14,6 @@ export default async function Page() {
 }
 
 async function getData() {
-  if (process.env.NEXT_PHASE === PHASE_PRODUCTION_BUILD) {
-    return null
-  }
   var url = 'https://tequila.balasolu.com/api/tequila'
   if (process.env.NODE_ENV === "development")
     url = 'http://localhost:3000/api/tequila'
