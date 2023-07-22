@@ -1,7 +1,5 @@
 import Image from 'next/image'
 
-export const dynamic = 'force-dynamic'
-
 export default async function Page() {
   const data = await getData()
   if (data === null) return <div>phase production build</div>
@@ -19,7 +17,7 @@ async function getData() {
   var url = 'https://tequila.balasolu.com/api/tequila'
   if (process.env.NODE_ENV === "development")
     url = 'http://localhost:3000/api/tequila'
-  const response = await fetch(url)
+  const response = await fetch(url, { cache: 'no-store', next: { revalidate: 0 } })
     // The return value is *not* serialized
     // You can return Date, Map, Set, etc.
 
