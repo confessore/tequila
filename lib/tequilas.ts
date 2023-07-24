@@ -91,6 +91,24 @@ export const tequilas: Array<Tequila> = [
     src: "https://cdn1.southernglazers.com/assets/items/390132/images/front-full-bottle/medium-(750x750)?eyJhbGciOiJIUzI1NiJ9.eyJrZXkiOiJrZXkzIiwicmVmZXJlciI6Ii5zZ3Byb29mLmNvbSJ9.tYokN0-WonFGbofNpYFTxa2x9nwUkJ-Sg4BybNHVuXY",
     href: "https://shop.sgproof.com/sgws/en/usd/CLASE-AZUL-MEZCAL-JOVEN-CENIZO-80/p/390132?frompage=searchPage",
   },
+  {
+    id: "9",
+    name: "FLECHA AZUL TEQUILA ANEJO 80",
+    description:
+      "Our traditional Anejo is expressive of rich maple and caramel but never cloying, as dried herbs and pineapple cream soda keep things vibrant, all tied together with a lingering note of black pepper",
+    about: "Flecha Azul is a super-premium tequila manufacturer. Flecha Azul uses fully aged, 100% Blue Weber Agave and naturally-sourced volcanic water. Our Anejo is aged for 18 months in ex-Bourbon American Oak Barrels.",
+    src: "https://cdn1.southernglazers.com/assets/items/537581/images/front-full-bottle/medium-(750x750)?eyJhbGciOiJIUzI1NiJ9.eyJrZXkiOiJrZXkzIiwicmVmZXJlciI6Ii5zZ3Byb29mLmNvbSJ9.tYokN0-WonFGbofNpYFTxa2x9nwUkJ-Sg4BybNHVuXY",
+    href: "https://shop.sgproof.com/sgws/en/usd/FLECHA-AZUL-TEQUILA-ANEJO-80/p/537581?frompage=searchPage",
+  },
+  {
+    id: "10",
+    name: "FLECHA AZUL TEQUILA CRISTALINO COLLECTORS EDITION 80",
+    description:
+      "Our triple filtered Anejo Cristalino carries all the warmth of our traditional Anejo but is still light and soft on the palate, balancing notes of vanilla and dark chocolate with a long, luxurious finish",
+    about: "Flecha Azul is an ultra-premium tequila filled with 150 years of history and heritage. Our Cristalino is aged for 18 months in ex-Bourbon American Oak Barrels and is then triple distilled.",
+    src: "https://cdn1.southernglazers.com/assets/items/537583/images/front-full-bottle/medium-(750x750)?eyJhbGciOiJIUzI1NiJ9.eyJrZXkiOiJrZXkzIiwicmVmZXJlciI6Ii5zZ3Byb29mLmNvbSJ9.tYokN0-WonFGbofNpYFTxa2x9nwUkJ-Sg4BybNHVuXY",
+    href: "https://shop.sgproof.com/sgws/en/usd/FLECHA-AZUL-TEQUILA-CRISTALINO-COLLECTORS-EDITION-80/p/537583?frompage=searchPage",
+  },
   /*
   {
     id: "",
