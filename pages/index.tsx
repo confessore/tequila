@@ -27,6 +27,7 @@ export default function Home() {
   return (
     <Suspense fallback={Loading()}>
       <div className="flex min-h-screen min-w-full flex-col items-center justify-between p-6">
+        <h1>Simply refresh the page for another random tequila!</h1>
         <a href={data["href"]}>
           <Image
             src={data["src"]}
